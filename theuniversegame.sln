@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "theuniversegame-console", "theuniversegame\theuniversegame-console.csproj", "{4397993D-7F24-4DF8-A940-30EF4C9A3008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniverseGame.Engine", "UniverseGame.Engine\UniverseGame.Engine.csproj", "{203B635A-D950-486D-AD66-D09573D6830E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniverseGame.Repository", "UniverseGame.Repository\UniverseGame.Repository.csproj", "{AFC73587-635D-4007-86B6-9FF845067845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniverseGame.Repository.UnitTests", "UniverseGame.Repository.UnitTests\UniverseGame.Repository.UnitTests.csproj", "{46E5C497-D07A-4E2E-B3CB-2BA579040130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniverseGame.Engine.UnitTests", "UniverseGame.Engine.UnitTests\UniverseGame.Engine.UnitTests.csproj", "{F6CCDE37-76E2-4C61-A00C-3E702D5BB959}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4397993D-7F24-4DF8-A940-30EF4C9A3008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4397993D-7F24-4DF8-A940-30EF4C9A3008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4397993D-7F24-4DF8-A940-30EF4C9A3008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4397993D-7F24-4DF8-A940-30EF4C9A3008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203B635A-D950-486D-AD66-D09573D6830E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203B635A-D950-486D-AD66-D09573D6830E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203B635A-D950-486D-AD66-D09573D6830E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203B635A-D950-486D-AD66-D09573D6830E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC73587-635D-4007-86B6-9FF845067845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC73587-635D-4007-86B6-9FF845067845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC73587-635D-4007-86B6-9FF845067845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC73587-635D-4007-86B6-9FF845067845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E5C497-D07A-4E2E-B3CB-2BA579040130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E5C497-D07A-4E2E-B3CB-2BA579040130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E5C497-D07A-4E2E-B3CB-2BA579040130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E5C497-D07A-4E2E-B3CB-2BA579040130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6CCDE37-76E2-4C61-A00C-3E702D5BB959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CCDE37-76E2-4C61-A00C-3E702D5BB959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CCDE37-76E2-4C61-A00C-3E702D5BB959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CCDE37-76E2-4C61-A00C-3E702D5BB959}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
