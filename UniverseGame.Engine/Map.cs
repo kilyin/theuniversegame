@@ -13,5 +13,7 @@ namespace UniverseGame.Engine
         public uint SizeY { get; private set; }
 
         public uint SizeZ { get; private set; }
+
+        public Tile[] tiles { get; set; }
     }
 }

@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//-----------------------------------------------------------------------------
+// Author: Konstantin Ilin
+//-----------------------------------------------------------------------------
 
 namespace UniverseGame.Engine
 {
-    class Tile
+    public class Tile : IPassable
     {
+        public Surface Surface { get; set; }
+
+        public bool CanPass
+        {
+            get { return Surface != null ? Surface.CanPass : false; }
+        }
     }
 }
